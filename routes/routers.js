@@ -1,5 +1,4 @@
 const express=require("express");
-require('dotenv').config();
 const router=express.Router();
 const User=require("../models/userModel");
 const bcrypt = require("bcryptjs");
@@ -7,9 +6,9 @@ const jwt = require("jsonwebtoken");
 const auth=require('../middleware/auth');
 var cloudinary = require('cloudinary').v2;
 cloudinary.config({
-cloud_name: process.env.CLOUD_NAME,
-api_key: process.env.API_KEY,
-api_secret: process.env.API_SECRET
+cloud_name: 'anil22',
+api_key: '199658311794756',
+api_secret: 'llJtKBKnNenzEmiZfuuFd4mF4qk'
 });
 
 
