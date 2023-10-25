@@ -15,7 +15,7 @@ const port = process.env.PORT || 8080;
  app.use(express.urlencoded({limit: '50mb', extended:true}));
 app.use(cors());
 //connect to mongoose
-mongoose.connect("mongodb+srv://Anil:anilmongodb1@cluster0.ihxib.mongodb.net/GamesYard?retryWrites=true&w=majority",{
+mongoose.connect("mongodb+srv://AnilKumar:anildb22@cluster0.zb7vgti.mongodb.net/?retryWrites=true&w=majority",{
     useNewUrlParser:true,
     useUnifiedTopology:true
 });
